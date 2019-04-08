@@ -3,8 +3,8 @@ This is a scrapy project to crawl agents from http://www.compass.com
 This project is meant only for educational purposes only.
 ## 🔍 Extracted Data
 The extracted data would look like the table below
-| link                                          | name     | phone           | email                | location  |
-| --------------------------------------------- | -------- | --------------- | -------------------- | --------- |
+| link | name | phone | email | location |
+| :---: | :---: | :---: | :---: | :---: |
 | http://compass.com/agents/san_diego/jane-doe/ | Jane Doe | M: 760.123.4567 | jane.doe@compass.com | San Diego |
 | http://compass.com/agents/san_diego/john-doe/ | John Doe | M: 858.123.4567 | john.doe@compass.com | San Diego |
 
