@@ -20,7 +20,7 @@ class AgentsSpider(scrapy.Spider):
         AGENTS_SELECTOR = '/html/body/main/div/div'#+/div/a
         for agent in response.xpath(AGENTS_SELECTOR):
             for link in agent.xpath('./div/a/@href').extract():
-                profile_url = 'http://compass.com/'+link
+                profile_url = 'http://compass.com'+link
                 profile = Request(profile_url, callback=self.visit_profile, meta=dict(url=profile_url))
                 yield profile
     
